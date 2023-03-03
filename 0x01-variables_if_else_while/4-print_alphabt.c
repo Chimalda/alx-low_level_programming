@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/***
- *main- Entry Point
+/**
+ * main- Entry Point
  * Return: Always 0
  */
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
 	q = 'q';
 	for (low = 'a'; low <= 'z'; low++)
 	{
-		if(low != e && low != q)
+		if (low != e && low != q)
 		putchar(low);
 	}
 	putchar('\n');
